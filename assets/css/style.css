@@ -1,0 +1,264 @@
+body {
+    background-image: url("../images/dust_scratches/dust_scratches.png");
+    margin: 0;
+}
+
+hr {
+    background-color: #cccccc;
+    border: 0;
+    height: 3px;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+header #name {
+    background-color: #4aaaa5;
+    float: left;
+    font: Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 40px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font: Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+header nav {
+    color: grey;
+    float: right;
+    font-size: 20px;
+    font: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+
+/* header #header {
+    margin: 0 auto;
+    width: 960px;
+} */
+
+section {
+    margin-top: 100px;
+}
+
+#bio,
+#contact,
+#portfolio {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#bio .inside-content,
+#contact .inside-content,
+#portfolio .inside-content {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+#message-group {
+    padding-top: 20px;
+}
+
+#name {
+    text-align: center;
+}
+
+#portfolio a {
+    text-decoration: none;
+}
+
+#bio p {
+    color: #777777;
+    font: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    padding: 0;
+}
+
+#bio h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+#bio img {
+    float: left;
+    height: auto;
+    padding: 20px;
+    padding-left: 0;
+    width: 300px;
+}
+
+#contact h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+#portfolio h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+img {
+    border: 0;
+    height: 150px;
+    padding-bottom: 20px;
+    width: 250px;
+}
+
+.images {
+    float: left;
+    padding-bottom: 20px;
+    padding-right: 70px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+#hangman,
+#rpg,
+#trivia,
+#widget,
+#rock {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    top: -60px;
+    width: 250px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+}
+
+label {
+    color: #777777;
+}
+
+.container {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+    section {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #bio,
+    #contact,
+    #portfolio {
+        width: 100%;
+    }
+
+    /* #header {
+        width: 600px;
+    }
+
+    header #name {
+        width: 640px;
+        text-align: center;
+    }
+
+    header nav {
+        width: 640px;
+        padding-right: 60px;
+    }
+
+    nav {
+        width: 640px;
+    } */
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    section {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #bio,
+    #contact,
+    #portfolio {
+        width: 100%;
+    }
+
+    /* .header {
+        width: 100%;
+    }
+
+    header nav {
+        position: static;
+        float: left;
+        margin-left: 240px;
+    } */
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    header nav {
+        padding-right: 60px;
+    }
+
+    section {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
+    }
+
+    #bio,
+    #contact,
+    #portfolio {
+        width: 670px;
+    }
+}
+
+@media screen and (min-width: 981px) {
+    header #header {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    section {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
+    }
+
+    #bio,
+    #contact,
+    #portfolio {
+        width: 960px;
+    }
+}
