@@ -40,11 +40,6 @@ header nav {
     margin-top: 30px;
 }
 
-/* header #header {
-    margin: 0 auto;
-    width: 960px;
-} */
-
 section {
     margin-top: 100px;
 }
@@ -180,24 +175,6 @@ label {
     #portfolio {
         width: 100%;
     }
-
-    /* #header {
-        width: 600px;
-    }
-
-    header #name {
-        width: 640px;
-        text-align: center;
-    }
-
-    header nav {
-        width: 640px;
-        padding-right: 60px;
-    }
-
-    nav {
-        width: 640px;
-    } */
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
@@ -212,16 +189,6 @@ label {
     #portfolio {
         width: 100%;
     }
-
-    /* .header {
-        width: 100%;
-    }
-
-    header nav {
-        position: static;
-        float: left;
-        margin-left: 240px;
-    } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
