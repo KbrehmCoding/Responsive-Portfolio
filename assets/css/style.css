@@ -40,10 +40,11 @@ header nav {
     margin-top: 30px;
 }
 
-/* header #header {
-    margin: 0 auto;
-    width: 960px;
-} */
+header nav a {
+    color: #777777;
+    margin: 0 18px;
+    text-decoration: none;
+}
 
 section {
     margin-top: 100px;
@@ -169,38 +170,33 @@ label {
 }
 
 @media screen and (max-width: 640px) {
-    section {
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    #bio,
-    #contact,
-    #portfolio {
-        width: 100%;
-    }
-
-    /* #header {
-        width: 600px;
-    }
-
     header #name {
-        width: 640px;
+        float: none;
+    }
+
+    header nav {
+        float: none;
+        margin: 0;
+        padding: 14px 0;
         text-align: center;
     }
 
-    header nav {
-        width: 640px;
-        padding-right: 60px;
+    section {
+        margin: 150px 20px 20px;
     }
 
-    nav {
-        width: 640px;
-    } */
+    #bio,
+    #contact,
+    #portfolio {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
+    header nav {
+        padding-right: 22px;
+    }
+
     section {
         margin-bottom: 20px;
         margin-left: 20px;
@@ -212,21 +208,11 @@ label {
     #portfolio {
         width: 100%;
     }
-
-    /* .header {
-        width: 100%;
-    }
-
-    header nav {
-        position: static;
-        float: left;
-        margin-left: 240px;
-    } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
     header nav {
-        padding-right: 60px;
+        padding-right: 22px;
     }
 
     section {
