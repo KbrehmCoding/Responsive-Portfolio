@@ -40,6 +40,12 @@ header nav {
     margin-top: 30px;
 }
 
+header nav a {
+    color: #777777;
+    margin: 0 18px;
+    text-decoration: none;
+}
+
 section {
     margin-top: 100px;
 }
@@ -164,10 +170,19 @@ label {
 }
 
 @media screen and (max-width: 640px) {
+    header #name {
+        float: none;
+    }
+
+    header nav {
+        float: none;
+        margin: 0;
+        padding: 14px 0;
+        text-align: center;
+    }
+
     section {
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 150px 20px 20px;
     }
 
     #bio,
@@ -178,6 +193,10 @@ label {
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
+    header nav {
+        padding-right: 22px;
+    }
+
     section {
         margin-bottom: 20px;
         margin-left: 20px;
@@ -193,7 +212,7 @@ label {
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
     header nav {
-        padding-right: 60px;
+        padding-right: 22px;
     }
 
     section {
