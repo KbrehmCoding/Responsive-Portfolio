@@ -19,7 +19,7 @@ header {
 }
 
 header #name {
-    background-color: #4aaaa5;
+    background-color: #842DCE;
     float: left;
     font: Georgia, Times, 'Times New Roman', serif;
     padding: 20px 40px;
@@ -84,7 +84,7 @@ section {
 }
 
 #bio h1 {
-    color: #4aaaa5;
+    color: #842DCE;
     font-size: 30px;
 }
 
@@ -97,12 +97,12 @@ section {
 }
 
 #contact h1 {
-    color: #4aaaa5;
+    color: #842DCE;
     font-size: 30px;
 }
 
 #portfolio h1 {
-    color: #4aaaa5;
+    color: #842DCE;
     font-size: 30px;
 }
 
@@ -120,7 +120,7 @@ img {
 }
 
 .button {
-    background-color: #4aaaa5;
+    background-color: #842DCE;
     color: #ffffff;
     cursor: pointer;
     font-size: 16px;
@@ -133,7 +133,7 @@ img {
 #trivia,
 #widget,
 #rock {
-    background-color: #4aaaa5;
+    background-color: #842DCE;
     color: #ffffff;
     font-size: 25px;
     position: relative;
@@ -144,7 +144,7 @@ img {
 
 footer {
     background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #842DCE;
     color: #ffffff;
     font-size: 12px;
     padding-top: 40px;
