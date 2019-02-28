@@ -147,10 +147,11 @@ img {
 }
 
 footer {
-    background-color: #666666;
-    border-top: 8px solid #842DCE;
+    background-color:  #842DCE;
+    border-top: 8px solid #666666;
     color: #ffffff;
     font-size: 12px;
+    height: 50px;
     padding-top: 40px;
     text-align: center;
 }
