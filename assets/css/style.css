@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background/purple-background.jpg");
+    background-image: url("../images/background/purple-abstract.jpg");
     margin: 0;
 }
 
@@ -10,7 +10,7 @@ hr {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #C4A2FD;
     border-bottom: 1px solid #cccccc;
     left: 0;
     position: fixed;
@@ -19,7 +19,7 @@ header {
 }
 
 header #name {
-    background-color: #842DCE;
+    background-color: #794FCD;
     float: left;
     font: Georgia, Times, 'Times New Roman', serif;
     padding: 20px 40px;
@@ -33,7 +33,7 @@ header h1 {
 }
 
 header nav {
-    color: grey;
+    color: #ffffff;
     float: right;
     font-size: 20px;
     font: Georgia, Times, 'Times New Roman', serif;
@@ -41,7 +41,7 @@ header nav {
 }
 
 header nav a {
-    color: #777777;
+    color: #ffffff;
     margin: 0 18px;
     text-decoration: none;
 }
@@ -84,7 +84,7 @@ section {
 }
 
 #bio h1 {
-    color: #842DCE;
+    color: #794FCD;
     font-size: 30px;
 }
 
@@ -97,12 +97,12 @@ section {
 }
 
 #contact h1 {
-    color: #842DCE;
+    color: #794FCD;
     font-size: 30px;
 }
 
 #portfolio h1 {
-    color: #842DCE;
+    color: #794FCD;
     font-size: 30px;
 }
 
@@ -120,7 +120,7 @@ img {
 }
 
 .button {
-    background-color: #842DCE;
+    background-color: #794FCD;
     color: #ffffff;
     cursor: pointer;
     font-size: 16px;
@@ -141,18 +141,18 @@ img {
 #clicky,
 #scraper,
 #reactgoogle {
-    background-color: #842DCE;
+    background-color: #794FCD;
     color: #ffffff;
     font-size: 25px;
-    /* position: relative; */
+    position: static;
     text-align: center;
     top: -60px;
     width: 250px;
 }
 
 footer {
-    background-color:  #842DCE;
-    border-top: 8px solid #666666;
+    background-color:  #C4A2FD;
+    border-top: 8px solid #794FCD;
     color: #ffffff;
     font-size: 12px;
     height: 50px;
