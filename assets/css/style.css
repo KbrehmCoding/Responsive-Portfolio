@@ -131,6 +131,31 @@ img {
     text-align: center;
 }
 
+.landingContainer{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+#frontendDev {
+    color: white;
+    background-color: #C4A2FD;
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.landingGreeting {
+    color: white;
+    background-color: #794FCD;
+    border-radius: 10px;
+    font: Helvetica sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
 #burgers,
 #bamazon,
 #liri,
