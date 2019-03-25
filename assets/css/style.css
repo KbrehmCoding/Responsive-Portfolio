@@ -42,17 +42,17 @@ header h1 {
 }
 
 header nav {
-    color: #ffffff;
-    float: right;
-    font-size: 20px;
-    font: Georgia, Times, 'Times New Roman', serif;
-    margin-top: 30px;
+    color: #ffffff !important;
+    float: right !important;
+    font-size: 30px !important;
+    font: Georgia, Times, 'Times New Roman', serif !important;
+    margin-top: 30px !important;
 }
 
 header nav a {
-    color: #ffffff;
-    margin: 0 18px;
-    text-decoration: none;
+    color: #ffffff !important;
+    margin: 0 18px !important;
+    text-decoration: none !important;
 }
 
 section {
@@ -190,7 +190,7 @@ footer {
     border-top: 8px solid #794FCD;
     color: #ffffff;
     font-size: 12px;
-    height: 50px;
+    height: 100px;
     padding-top: 40px;
     text-align: center;
 }
