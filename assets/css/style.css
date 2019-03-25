@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+.col {
+    padding: none;
+}
+
 hr {
     background-color: #cccccc;
     border: 0;
@@ -77,6 +81,10 @@ section {
 
 #name {
     text-align: center;
+}
+
+#otherExperience {
+
 }
 
 #portfolio a {
