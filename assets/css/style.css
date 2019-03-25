@@ -1,3 +1,7 @@
+a:active {
+    color: white
+}
+
 body {
     background-image: url("../images/background/purple-abstract.jpg");
     margin: 0;
